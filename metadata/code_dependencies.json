@@ -1,0 +1,37 @@
+{
+  "MATLAB_version": "23.2.0.2365128 (R2023b)",
+  "release": "2023b",
+  "files": [
+    "code/BLE_RR_Estimation.m",
+    "code/est_peak_freq_fft.m",
+    "code/est_peak_freq_welch.m",
+    "code/estimate_RR_resp_waveform.m",
+    "code/estimate_static_music_range.m",
+    "code/extract_compensated_ble_phase.m",
+    "code/kw45_Resp_main.m",
+    "code/load_kw45_ble_measurement.m",
+    "code/load_resp_waveform.m",
+    "code/music_range_singleframe.m",
+    "code/rectify_ble_phase.m"
+  ],
+  "products": [
+    {
+      "Name": "MATLAB",
+      "Version": "23.2",
+      "ProductNumber": 1,
+      "Certain": true
+    },
+    {
+      "Name": "Signal Processing Toolbox",
+      "Version": "23.2",
+      "ProductNumber": 8,
+      "Certain": true
+    }
+  ],
+  "external_custom_files": [],
+  "physconst_path": "matlabroot/toolbox/shared/siglib/physconst.m",
+  "pwelch_path": "matlabroot/toolbox/signal/signal/pwelch.m",
+  "custom_dependency_count": 11,
+  "code_folder": "code/",
+  "scope": "Complete transitive custom dependencies of code/kw45_Resp_main.m; one Normal record executed with the bundled functions."
+}
